@@ -147,10 +147,3 @@ map_submapSize(Map, FromKey, ToKey, Size) :-
 	get_count(T2, C2),
 	Size is C2 - C1.
 	
-	
-	
-	
-
-
-	
-	
