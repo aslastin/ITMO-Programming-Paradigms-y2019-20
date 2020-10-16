@@ -11,7 +11,7 @@ import java.util.Map;
 
 
 public class GenericTabulator implements Tabulator {
-    // :NOTE: константа
+
     private static final Map<String, TypeParser<? extends Number>> MODE_PARSER = new HashMap<>(Map.of(
             "i", new SafeIntegerTypeParser(), "d", new DoubleTypeParser(),
             "bi", new BigIntegerTypeParser(), "s", new ShortTypeParser(),
