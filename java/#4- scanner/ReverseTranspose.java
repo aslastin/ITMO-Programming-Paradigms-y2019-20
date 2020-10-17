@@ -3,10 +3,6 @@ package HW.HW5;
 import java.io.IOException;
 import java.util.ArrayList;
 
-// /Users/aleksandrslastin/JavaHW/src
-// javac done.HW5.ReverseTranspose.java
-// java -jar FastReverseTransposeTest.jar
-
 public class ReverseTranspose {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
